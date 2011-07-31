@@ -25,7 +25,7 @@ input {
 	font-size: 1em;
 }
 
-.button {
+button {
 	background-color: #B8090C;
 	color: white;
 	padding: 3px;

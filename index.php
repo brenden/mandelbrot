@@ -37,7 +37,7 @@
 
 			<form>
 
-				<button class="button" id="clear">Initialize</button>
+				<button id="clear">Initialize</button>
 
                         </form>
 
