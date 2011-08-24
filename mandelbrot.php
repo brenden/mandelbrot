@@ -26,10 +26,6 @@
 	        $resolution = .01;
         }
 
-	//echo $from->real;
-	//echo $resolution;
-	//$resolution = .01;
-	//echo $resolution;
 	$escape_depth = 15;
         $set = define_set($from, $to, $resolution, $escape_depth);
 
@@ -118,7 +114,7 @@
                 $drawing_space = 800;
 
 		//Parameters for the drawing algorithm
-		$block = 3;   //The side length of the square used to represent a single point
+		$block = 3;    //The side length of the square used to represent a single point
 		$max_sub = 15; //The max number of points to try to group together for drawing
 		$min_sub = 0;  //The min number of points to try to group together for drawing
 		$step = 3;     //The step size down from $max_sub to $min_sub
